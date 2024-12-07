@@ -1,0 +1,76 @@
+local_backend: true
+backend:
+  name: git-gateway
+media_folder: 'static/media'
+public_folder: '/media'
+display_url: https://your-site.com
+publish_mode: editorial_workflow
+i18n:
+  structure: multiple_folders
+  locales: [es, en]
+  default_locale: es
+collections:
+  - name: 'pages' # Used in routes, e.g., /admin/collections/blog
+    i18n: true
+    extension: 'json'
+    label: 'Pages' # Used in the UI
+    folder: 'src/lib/data' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'markdown', required: false, i18n: true }
+      - { label: 'Text', name: 'text', widget: 'markdown', required: false, i18n: true }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - label: 'components'
+        name: 'components'
+        widget: 'list'
+        required: false
+        collapsed: false
+        fields:
+          - label: 'type'
+            name: 'type'
+            widget: 'select'
+            options: ['grid', 'flex', 'divider']
+          - label: 'Images block'
+            name: 'imagesBlock'
+            widget: 'list'
+            required: false
+            collapsed: false
+            fields:
+              - {
+                  label: 'Disposition',
+                  name: 'disposition',
+                  widget: 'select',
+                  options: ['line', 'right', 'left', 'middle'],
+                  required: false
+                }
+              - label: 'Images'
+                name: 'images'
+                widget: 'list'
+                allow_multiple: false
+                required: false
+                collapsed: false
+                fields:
+                  - { label: 'Image', name: 'image', widget: 'image', required: true }
+                  - { label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false }
+                  - {
+                      label: 'Description',
+                      name: 'description',
+                      widget: 'markdown',
+                      required: false
+                    }
+          - label: 'Spacer'
+            name: 'spacer'
+            widget: 'object'
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: 'Padding',
+                  name: 'padding',
+                  widget: 'select',
+                  options: ['small', 'large'],
+                  required: false
+                }
+              - { label: 'Text', name: 'text', widget: 'markdown', required: false }

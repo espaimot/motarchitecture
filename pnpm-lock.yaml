@@ -42,6 +42,9 @@ importers:
       globals:
         specifier: ^15.0.0
         version: 15.13.0
+      postcss:
+        specifier: ^8.4.49
+        version: 8.4.49
       prettier:
         specifier: ^3.3.2
         version: 3.4.2
@@ -58,7 +61,7 @@ importers:
         specifier: ^4.0.0
         version: 4.1.1(svelte@5.8.1)(typescript@5.7.2)
       tailwindcss:
-        specifier: ^3.4.9
+        specifier: ^3.4.16
         version: 3.4.16
       typescript:
         specifier: ^5.0.0

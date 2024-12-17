@@ -2,18 +2,13 @@
 	import { IconMenu, IconX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
 
+	export let menu: { [key: string]: string };
 	let active: string = '';
-
 	onMount(() => {
 		active = window.location.pathname.split('/').pop() || '';
 	});
 
 	$: open = false;
-	const menu = {
-		'': 'Espai.MOT',
-		projectes: 'Projectes',
-		contacte: 'Contacte'
-	};
 </script>
 
 <header class="flex min-h-14 items-center bg-white px-4 text-black md:px-10">

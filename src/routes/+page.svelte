@@ -4,7 +4,6 @@
 	import type { CardType } from '../types/Card';
 
 	import data from '../lib/data/data.json';
-	// take json and transform it into an object
 	const body = data;
 	const { background, projectList } = body.home;
 </script>

@@ -12,7 +12,7 @@
 	};
 </script>
 
-<div class="scroll-container">
+<div class="z-1 relative h-screen overflow-y-scroll">
 	<ul class="grid grid-flow-row grid-cols-6">
 		{#each list as card, i}
 			<li class={`col-span-${sizeToSpan[card.size]} col-start-${colPos[i]} row-start-${rowPos[i]}`}>
@@ -21,18 +21,3 @@
 		{/each}
 	</ul>
 </div>
-
-<style>
-	.scroll-container {
-		position: relative;
-		z-index: 1;
-		overflow-y: scroll;
-		height: 100vh;
-	}
-
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		grid-auto-rows: 200px;
-	}
-</style>

@@ -27,7 +27,7 @@
         "title": "Project Title 2",
         "subtitle": "Project Subtitle 2",
         "date": "MM/AAAA",
-        "size": "medium",
+        "size": "small",
         "images": [
           {
             "src": "src/lib/data/3.png",
@@ -43,7 +43,7 @@
         "title": "Project Title 3",
         "subtitle": "Project Subtitle 3",
         "date": "MM/AAAA",
-        "size": "large",
+        "size": "small",
         "images": [
           {
             "src": "src/lib/data/2.jpg",
@@ -59,7 +59,7 @@
             "title": "Project Title 4",
             "subtitle": "Project Subtitle 4",
             "date": "MM/AAAA",
-            "size": "medium",
+            "size": "small",
             "images": [
             {
                 "src": "src/lib/data/3.png",
@@ -91,7 +91,7 @@
             "title": "Project Title 6",
             "subtitle": "Project Subtitle 6",
             "date": "MM/AAAA",
-            "size": "large",
+            "size": "small",
             "images": [
             {
                 "src": "src/lib/data/2.jpg",

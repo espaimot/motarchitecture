@@ -1,6 +1,8 @@
-<script>
+<script lang="ts">
 	import BackgroundImage from '$lib/components/BackgroundImage.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
+	import type { CardType } from '../types/Card';
+
 	import data from '../lib/data/data.json';
 	// take json and transform it into an object
 	const body = data;
@@ -17,5 +19,5 @@
 {/if}
 
 {#if projectList}
-	<ProjectList list={projectList} />
+	<ProjectList list={projectList as CardType[]} />
 {/if}

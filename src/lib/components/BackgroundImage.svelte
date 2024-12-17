@@ -29,11 +29,19 @@
 	{#if isP5enabled}
 		{code}
 	{:else}
-		<img {src} {alt} />
+		<img {src} {alt} class="animated-image" />
 	{/if}
 </div>
 
 <style>
+	@keyframes invertToNormal {
+		0% {
+			filter: invert(1);
+		}
+		100% {
+			filter: invert(0);
+		}
+	}
 	.background {
 		position: fixed;
 		top: 0;
@@ -47,7 +55,12 @@
 	}
 
 	.background img {
-		width: 40%;
+		width: 50%;
 		height: auto;
+		border-radius: 8px;
+	}
+
+	.animated-image {
+		animation: invertToNormal 2s ease-in-out forwards;
 	}
 </style>

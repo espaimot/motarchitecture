@@ -22,7 +22,7 @@
 					<a
 						class={`hover:underline ${active === key ? 'underline' : ''}`}
 						on:click={() => (active = key || '')}
-						href={`/${key}`}>{text}</a
+						href={key === 'home' ? '/' : `/${key}`}>{text}</a
 					>
 				</li>
 			{/each}

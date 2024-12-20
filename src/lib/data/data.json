@@ -2,7 +2,7 @@
   "home": {
     "background": {
       "isP5enabled": false,
-      "src": "src/lib/data/background.jpg",
+      "src": "/media/background.jpg",
       "alt": "Background Image",
       "code": null
     },
@@ -14,11 +14,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -30,11 +30,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/3.png",
+            "src": "/media/3.png",
             "alt": "Project Title 3"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 4"
           }
         ]
@@ -46,11 +46,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -62,11 +62,11 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 3"
             },
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 4"
             }
             ]
@@ -78,11 +78,11 @@
             "size": "medium",
             "images": [
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 2"
             }
             ]
@@ -94,11 +94,11 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 2"
             }
             ]
@@ -108,7 +108,7 @@
   "projects": {
     "background": {
       "isP5enabled": false,
-      "src": "src/lib/data/2.jpg",
+      "src": "/media/2.jpg",
       "alt": "Background Image project",
       "code": null
     }
@@ -116,7 +116,7 @@
   "contact": {
     "background": {
       "isP5enabled": false,
-      "src": "src/lib/data/3.png",
+      "src": "/media/3.png",
       "alt": "Background Image contact",
       "code": null
     }
@@ -126,7 +126,7 @@
   "home": {
     "background": {
       "isP5enabled": false,
-      "src": "src/lib/data/background.jpg",
+      "src": "/media/background.jpg",
       "alt": "Background Image",
       "code": null
     },
@@ -138,11 +138,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -154,27 +154,27 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/3.png",
+            "src": "/media/3.png",
             "alt": "Project Title 3"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 4"
           }
         ]
       },
       {
-        "title": "Project Title 3",
+        "title": "Project Title 3 EN INGLES",
         "subtitle": "Project Subtitle 3",
         "date": "MM/AAAA",
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -186,11 +186,11 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 3"
             },
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 4"
             }
             ]
@@ -202,11 +202,11 @@
             "size": "medium",
             "images": [
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 2"
             }
             ]
@@ -218,25 +218,32 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 2"
             }
             ]
         }
     ]
   },
-  "projects": {},
+   "projects": {
+    "background": {
+      "isP5enabled": false,
+      "src": "/media/2.jpg",
+      "alt": "Background Image project ingles",
+      "code": null
+    }
+  },
   "contact": {}
 },
 "es": {
   "home": {
     "background": {
       "isP5enabled": false,
-      "src": "src/lib/data/background.jpg",
+      "src": "/media/background.jpg",
       "alt": "Background Image",
       "code": null
     },
@@ -248,11 +255,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -264,11 +271,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/3.png",
+            "src": "/media/3.png",
             "alt": "Project Title 3"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 4"
           }
         ]
@@ -280,11 +287,11 @@
         "size": "small",
         "images": [
           {
-            "src": "src/lib/data/2.jpg",
+            "src": "/media/2.jpg",
             "alt": "Project Title 1"
           },
           {
-            "src": "src/lib/data/1.jpg",
+            "src": "/media/1.jpg",
             "alt": "Project Title 2"
           }
         ]
@@ -296,11 +303,11 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 3"
             },
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 4"
             }
             ]
@@ -312,11 +319,11 @@
             "size": "medium",
             "images": [
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/3.png",
+                "src": "/media/3.png",
                 "alt": "Project Title 2"
             }
             ]
@@ -328,11 +335,11 @@
             "size": "small",
             "images": [
             {
-                "src": "src/lib/data/2.jpg",
+                "src": "/media/2.jpg",
                 "alt": "Project Title 1"
             },
             {
-                "src": "src/lib/data/1.jpg",
+                "src": "/media/1.jpg",
                 "alt": "Project Title 2"
             }
             ]

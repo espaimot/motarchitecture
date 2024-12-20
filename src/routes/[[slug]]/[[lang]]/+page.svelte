@@ -1,9 +1,9 @@
 <script lang="ts">
 	import BackgroundImage from '$lib/components/BackgroundImage.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
-	import type { CardType } from '../types/Card';
-	import type { DataType } from '../types/DataInput';
-	import '../app.css';
+	import type { CardType } from '../../../types/Card';
+	import type { DataType } from '../../../types/DataInput';
+	import '../../../app.css';
 
 	export let data: { content: DataType };
 	const { background, projectList } = data.content;

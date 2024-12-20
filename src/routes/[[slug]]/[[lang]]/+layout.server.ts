@@ -1,5 +1,3 @@
-
-//Layout home in catalan
 export const load = async () => {
 	const slug = 'home';
 	const lang = 'cat';

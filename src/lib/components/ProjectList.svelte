@@ -12,12 +12,10 @@
 	};
 </script>
 
-<div class="z-1 relative h-screen overflow-y-scroll">
-	<ul class="grid grid-flow-row grid-cols-6">
-		{#each list as card, i}
-			<li class={`col-span-${sizeToSpan[card.size]} col-start-${colPos[i]} row-start-${rowPos[i]}`}>
-				<Card {card} />
-			</li>
-		{/each}
-	</ul>
-</div>
+<ul class="z-1 relative grid h-screen grid-flow-row grid-cols-6">
+	{#each list as card, i}
+		<li class={`col-span-${sizeToSpan[card.size]} col-start-${colPos[i]} row-start-${rowPos[i]}`}>
+			<Card {card} />
+		</li>
+	{/each}
+</ul>

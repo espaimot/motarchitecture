@@ -1,11 +1,12 @@
 <script lang="ts">
 	import BackgroundImage from '$lib/components/BackgroundImage.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
-	import type { CardType } from '../types/Card';
+	import type { CardType } from '../../../types/Card';
+	import type { DataType } from '../../../types/DataInput';
+	import '../../../app.css';
 
-	import data from '../lib/data/data.json';
-	const body = data;
-	const { background, projectList } = body.home;
+	export let data: { content: DataType };
+	const { background, projectList } = data.content;
 </script>
 
 {#if background}

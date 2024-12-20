@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { IconMenu, IconX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 
 	export let menu: { [key: string]: string };
 	let active: string = '';
@@ -11,7 +12,7 @@
 	$: open = false;
 </script>
 
-<header class="flex min-h-14 items-center bg-white px-4 text-black md:px-10">
+<header class="sticky top-0 z-10 flex min-h-14 items-center bg-white px-4 text-black md:px-10">
 	<nav class={`w-full`}>
 		<ul
 			class={`${open ? 'fixed' : 'hidden'} left-0 z-10 w-full flex-col items-center justify-center gap-y-4 bg-white p-8 md:flex md:w-auto md:flex-row md:justify-between md:p-0`}

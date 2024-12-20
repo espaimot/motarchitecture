@@ -5,6 +5,7 @@
 	export let code: string | null;
 </script>
 
+<!-- pasar a tailwind -->
 {#if isP5enabled}
 	<script>
 		import { onMount } from 'svelte';

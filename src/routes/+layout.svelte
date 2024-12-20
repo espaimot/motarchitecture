@@ -1,14 +1,12 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte';
 	import '../app.css';
-	let { children } = $props();
-
-	const menu = {
-		'': 'Espai.MOT',
-		projectes: 'Projectes',
-		contacte: 'Contacte'
-	};
+	let { data } = $props();
+	let menu = $state(data.menu);
 </script>
 
 <Header {menu} />
-{@render children()}
+
+<main>
+	<slot />
+</main>

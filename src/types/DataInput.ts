@@ -1,5 +1,5 @@
 export type Languages = 'cat' | 'en' | 'es';
-export type Pages = 'home' | 'projects' | 'contact';
+export type Pages = 'home' | 'projectes' | 'contacte' | 'menu';
 
 export type DataTypeMultilang = {
   [key in Languages]: DataType

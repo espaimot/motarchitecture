@@ -9,6 +9,7 @@
 </script>
 
 <Header {menu} {lang} {defaultLang} />
+<!-- La key permite que se renderice el contenido solo si el slug o el idioma cambian, sino el contenido se mantiene estatico en el DOM. -->
 <main>
 	{#key $page.params.slug || $page.params.lang}
 		<slot />

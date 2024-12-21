@@ -1,0 +1,36 @@
+{
+  "title": "Inicio",
+  "metadescription": "Test ES",
+  "projects": [
+    {
+      "title": "Project 1 ES",
+      "subtitle": "Project 1",
+      "cardSize": "medium",
+      "date": "2024-12",
+      "images": [
+        {
+          "image": "/media/1.jpg",
+          "src": "/media/1.jpg",
+          "alt": "Chairs"
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "title": "Project 2 ES",
+      "subtitle": "Project 2 **content**",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "large"
+    }
+  ],
+  "background": {
+    "alt": "MOT architectura logo"
+  }
+}

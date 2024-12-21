@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { CardType } from '../../types/Card';
+	import type { ProjectCard } from '../../types/Card';
 
-	export let card: CardType;
+	export let card: ProjectCard;
 </script>
 
 <div class="card">

@@ -1,0 +1,37 @@
+{
+  "title": "Home",
+  "metadescription": "Test EN",
+  "projects": [
+    {
+      "title": "Project 1 EN",
+      "subtitle": "Project 1 EN",
+      "cardSize": "medium",
+      "date": "2024-12",
+      "images": [
+        {
+          "image": "/media/1.jpg",
+          "src": "/media/1.jpg",
+          "alt": "Chairs"
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "date": "2024-11",
+      "cardSize": "large",
+      "subtitle": "Project 2 **content**",
+      "title": "Project 2 EN",
+      "size": "large"
+    }
+  ],
+  "background": {
+    "alt": "MOT architecture logo"
+  }
+}

@@ -1,12 +1,12 @@
 <script lang="ts">
 	import BackgroundImage from '$lib/components/BackgroundImage.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
-	import type { CardType } from '../../../types/Card';
-	import type { DataType } from '../../../types/DataInput';
+	import type { ProjectCard } from '../../../types/Card';
+	import type { PageData } from '../../../types/DataInput';
 	import '../../../app.css';
 
-	export let data: { content: DataType };
-	const { background, projectList } = data.content;
+	export let data: { content: PageData };
+	const { background, projects } = data.content;
 </script>
 
 {#if background}
@@ -18,6 +18,6 @@
 	/>
 {/if}
 
-{#if projectList}
-	<ProjectList list={projectList as CardType[]} />
+{#if projects}
+	<ProjectList list={projects as ProjectCard[]} />
 {/if}

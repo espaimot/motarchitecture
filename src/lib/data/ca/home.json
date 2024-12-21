@@ -1,0 +1,46 @@
+{
+  "title": "Home",
+  "metadescription": "Test CA",
+  "background": {
+    "image": "/media/background.jpg",
+    "enableP5": false,
+    "p5Code": "",
+    "src": "/media/background.jpg",
+    "alt": "MOT architecture logo",
+    "isP5enabled": false
+  },
+  "projects": [
+    {
+      "title": "Project 1 CA",
+      "subtitle": "Project 1",
+      "cardSize": "medium",
+      "date": "2024-12",
+      "images": [
+        {
+          "image": "/media/1.jpg",
+          "src": "/media/1.jpg",
+          "alt": "Chairs"
+        }
+      ],
+      "size": "medium"
+    },
+    {
+      "title": "Project 2 CA",
+      "subtitle": "Project 2 **content**",
+      "cardSize": "large",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "large"
+    }
+  ],
+  "contact": {
+    "image": "",
+    "text": ""
+  }
+}

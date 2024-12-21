@@ -1,0 +1,44 @@
+{
+  "ca": {
+    "entries": [
+      {
+        "title": "Home CAT",
+        "slug": "home",
+        "order": 1
+      },
+      {
+        "title": "Projects CAT",
+        "slug": "projectos",
+        "order": 2
+      }
+    ]
+  },
+  "es": {
+    "entries": [
+      {
+        "title": "HOME ES",
+        "slug": "home",
+        "order": 1
+      },
+      {
+        "title": "Proyects ES",
+        "slug": "proyectos",
+        "order": 2
+      }
+    ]
+  },
+  "en": {
+    "entries": [
+      {
+        "title": "HOME EN",
+        "slug": "home",
+        "order": 1
+      },
+      {
+        "title": "PROJECTS EN",
+        "slug": "proyectos",
+        "order": 2
+      }
+    ]
+  }
+}

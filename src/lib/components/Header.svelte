@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { IconMenu, IconX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
+	import type { Menu } from '../../types/Menu';
 
-	export let menu: { [key: string]: string };
+	export let menu: Menu;
 	export let lang: string;
 	export let defaultLang: string;
 
@@ -25,12 +25,12 @@
 		<ul
 			class={`${open ? 'fixed' : 'hidden'} left-0 z-10 w-full flex-col items-center justify-center gap-y-4 bg-white p-8 md:flex md:w-auto md:flex-row md:justify-between md:p-0`}
 		>
-			{#each Object.entries(menu) as [key, text]}
+			{#each menu as menuEntry}
 				<li>
 					<a
-						class={`hover:underline ${active === key ? 'underline' : ''}`}
-						on:click={() => (active = key || '')}
-						href={buildLink(key)}>{text}</a
+						class={`hover:underline ${active === menuEntry['slug'] ? 'underline' : ''}`}
+						on:click={() => (active = menuEntry['slug'] || '')}
+						href={buildLink(menuEntry['slug'])}>{menuEntry['title']}</a
 					>
 				</li>
 			{/each}

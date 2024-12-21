@@ -1,18 +1,17 @@
-import data from '$lib/data/data.json';
-import type { DataTypeMultilang, Languages, Pages } from "../../../types/DataInput";
+import menu from '$lib/data/menu.json';
+import type { Languages, Pages } from '../../../types/DataInput';
 
-export const load = async ({ params }: { params: { slug?: Pages, lang?: Languages } }) => {
+export const load = async ({ params }: { params: { slug?: Pages; lang?: Languages } }) => {
+	const defaultLang = 'ca';
 
-	const defaultLang = 'cat';
-
-	const slug = params.slug  || 'home';
+	const slug = params.slug || 'home';
 	const lang = params.lang || defaultLang;
-	const menu = data[lang as keyof DataTypeMultilang]['menu'];
+	const menuEntries = menu[lang].entries.sort((a, b) => a.order - b.order);
 
 	return {
 		slug,
 		lang,
 		defaultLang,
-        menu
+		menu: menuEntries
 	};
 };

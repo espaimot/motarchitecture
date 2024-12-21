@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Card from './Card.svelte';
-	import type { CardType } from '../../types/Card';
+	import type { ProjectCard } from '../../types/Card';
 
-	export let list: CardType[];
+	export let list: ProjectCard[];
 	const colPos = [1, 5, 2, 5, 1, 6, 3];
 	const rowPos = [1, 3, 5, 8, 10, 11, 12, 14, 15];
 	const sizeToSpan = {

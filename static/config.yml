@@ -7,9 +7,29 @@ display_url: https://your-site.com
 publish_mode: editorial_workflow
 i18n:
   structure: multiple_folders
-  locales: [es, en]
-  default_locale: es
+  locales: [ca, es, en]
+  default_locale: ca
 collections:
+  - name: 'menu'
+    label: 'Menu'
+    i18n:
+      structure: single_file
+      locales: [ca, es, en]
+    files:
+      - name: 'main'
+        label: 'Main menu'
+        file: 'src/lib/data/menu.json'
+        i18n: true
+        fields:
+          - label: Entries
+            name: entries
+            widget: 'list'
+            allow_add: true
+            i18n: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Link', name: 'slug', widget: 'string' }
+              - { label: 'Order', name: 'order', widget: 'number' }
   - name: 'pages' # Used in routes, e.g., /admin/collections/blog
     i18n: true
     extension: 'json'
@@ -18,59 +38,62 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: 'Title', name: 'title', widget: 'string', required: true, i18n: true }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'markdown', required: false, i18n: true }
-      - { label: 'Text', name: 'text', widget: 'markdown', required: false, i18n: true }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - label: 'components'
-        name: 'components'
-        widget: 'list'
-        required: false
-        collapsed: false
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - { label: 'Metadescription', name: 'metadescription', widget: 'string', i18n: true }
+      - label: 'Background'
+        name: 'background'
+        widget: 'object'
+        collapsed: true
+        i18n: true
         fields:
-          - label: 'type'
-            name: 'type'
-            widget: 'select'
-            options: ['grid', 'flex', 'divider']
-          - label: 'Images block'
-            name: 'imagesBlock'
+          - { label: 'Image', name: 'src', widget: 'image', required: false }
+          - { label: 'Imagen alt text', name: 'alt', widget: 'string', required: false, i18n: true }
+          - { label: 'P5 Code', name: 'code', widget: 'string', required: false }
+          - {
+              label: 'Enable P5 (check only if P5 code is present)',
+              name: 'isP5enabled',
+              widget: 'boolean',
+              default: false
+            }
+      - label: 'Contact'
+        name: 'contact'
+        widget: 'object'
+        collapsed: true
+        required: false
+        i18n: true
+        fields:
+          - { label: 'Image', name: 'src', widget: 'image', required: false }
+          - { label: 'Image alt text', name: 'alt', widget: 'string', required: false, i18n: true }
+          - { label: 'Text', name: 'text', widget: 'markdown', i18n: true, required: false }
+      - label: 'Projects'
+        name: 'projects'
+        widget: 'list'
+        collapsed: false
+        i18n: true
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', required: true }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'markdown', required: false }
+          - {
+              label: 'Card size',
+              name: 'size',
+              widget: 'select',
+              options: ['small', 'medium', 'large']
+            }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM' }
+          - label: 'Images'
+            name: 'images'
             widget: 'list'
-            required: false
+            allow_multiple: true
+            required: true
             collapsed: false
             fields:
-              - {
-                  label: 'Disposition',
-                  name: 'disposition',
-                  widget: 'select',
-                  options: ['line', 'right', 'left', 'middle'],
-                  required: false
-                }
-              - label: 'Images'
-                name: 'images'
-                widget: 'list'
-                allow_multiple: false
-                required: false
-                collapsed: false
-                fields:
-                  - { label: 'Image', name: 'image', widget: 'image', required: true }
-                  - { label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false }
-                  - {
-                      label: 'Description',
-                      name: 'description',
-                      widget: 'markdown',
-                      required: false
-                    }
-          - label: 'Spacer'
-            name: 'spacer'
-            widget: 'object'
-            required: false
-            collapsed: true
-            fields:
-              - {
-                  label: 'Padding',
-                  name: 'padding',
-                  widget: 'select',
-                  options: ['small', 'large'],
-                  required: false
-                }
-              - { label: 'Text', name: 'text', widget: 'markdown', required: false }
+              - { label: 'Image', name: 'src', widget: 'image', required: true }
+              - { label: 'Image Alt', name: 'alt', widget: 'string', required: false }
+      - label: 'Timeline projects'
+        name: 'timelineProjects'
+        widget: 'list'
+        collapsed: false
+        i18n: true
+        fields:
+          - { label: 'Description', name: 'description', widget: 'string', required: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM' }

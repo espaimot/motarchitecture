@@ -1,34 +1,53 @@
 <script lang="ts">
 	import { IconMenu, IconX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
-	import type { Menu } from '../../types/Menu';
+	import type { MenuMultiLang } from '../../types/Menu';
+	import type { Languages } from '../../types/DataInput';
 
-	export let menu: Menu;
+	export let menu: MenuMultiLang;
 	export let lang: string;
 	export let defaultLang: string;
+	const languages = ['en', 'ca', 'es'];
 
 	let active: string = '';
 	onMount(() => {
 		active = window.location.pathname.split('/').pop() || '';
 	});
 
+	$: menuTranslated = menu[lang as Languages].entries.sort((a, b) => a.order - b.order);
 	$: open = false;
 
 	const buildLink = (key: string) => {
 		if (key === 'home') return lang !== defaultLang ? `/${key}/${lang}` : '/';
 		return lang !== defaultLang ? `/${key}/${lang}` : `/${key}`;
 	};
+
+	const buildLinkTranslation = (lang: string) => {
+		if (active === 'home' || active === '') return lang !== defaultLang ? `/home/${lang}` : '/';
+		return lang !== defaultLang ? `/${active}/${lang}` : `/${active}`;
+	};
 </script>
 
 <header class="sticky top-0 z-10 flex min-h-14 items-center bg-white px-4 text-black md:px-10">
 	<nav class={`w-full`}>
 		<ul
-			class={`${open ? 'fixed' : 'hidden'} left-0 z-10 w-full flex-col items-center justify-center gap-y-4 bg-white p-8 md:flex md:w-auto md:flex-row md:justify-between md:p-0`}
+			class={`${open ? 'fixed' : 'hidden'} left-0 z-10 flex w-full flex-col gap-4 bg-white p-8 md:flex md:w-auto md:flex-row md:justify-end md:gap-8 md:p-0 md:text-xl`}
 		>
-			{#each menu as menuEntry}
+			<li class={`absolute left-8 top-0 flex gap-1 md:top-2`}>
+				{#each languages as language}
+					<a
+						class={`cursor-pointer ${lang === language ? 'border-b border-black pb-[0px]' : ''}`}
+						on:click={() => (lang = language)}
+						href={buildLinkTranslation(language)}
+					>
+						{language} .
+					</a>
+				{/each}
+			</li>
+			{#each menuTranslated as menuEntry}
 				<li>
 					<a
-						class={`hover:underline ${active === menuEntry['slug'] ? 'underline' : ''}`}
+						class={`hover:shadow-xl ${active === menuEntry['slug'] ? 'border-b border-black pb-[2px]' : ''}`}
 						on:click={() => (active = menuEntry['slug'] || '')}
 						href={buildLink(menuEntry['slug'])}>{menuEntry['title']}</a
 					>

@@ -5,7 +5,6 @@
 	export let code: string | null;
 </script>
 
-<!-- pasar a tailwind -->
 {#if isP5enabled}
 	<script>
 		import { onMount } from 'svelte';
@@ -26,11 +25,11 @@
 	</script>
 {/if}
 
-<div class="background">
+<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
 	{#if isP5enabled}
 		{code}
 	{:else}
-		<img {src} {alt} class="animated-image" />
+		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
 	{/if}
 </div>
 
@@ -42,23 +41,6 @@
 		100% {
 			filter: invert(0);
 		}
-	}
-	.background {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: -1;
-	}
-
-	.background img {
-		width: 50%;
-		height: auto;
-		border-radius: 8px;
 	}
 
 	.animated-image {

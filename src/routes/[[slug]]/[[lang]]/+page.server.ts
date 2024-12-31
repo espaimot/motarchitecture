@@ -9,7 +9,8 @@ export const load = async ({ params }: { params: { slug?: Pages; lang?: Language
 		const content = await import(`$lib/data/${lang}/${slug}.json`);
 
 		return {
-			content
+			content,
+			lang
 		};
 	} catch (e) {
 		if ((e as Error).message.startsWith('Unknown variable dynamic import')) {

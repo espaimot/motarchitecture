@@ -1,3 +1,5 @@
+import type { Languages } from "./DataInput";
+
 export type MenuEntry = {
 	title: string;
 	slug: string;
@@ -5,3 +7,9 @@ export type MenuEntry = {
 };
 
 export type Menu = MenuEntry[];
+
+export type MenuMultiLang = {
+	[lang in Languages]: {
+		entries: Menu
+	}
+};

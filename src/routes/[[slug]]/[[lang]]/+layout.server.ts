@@ -6,7 +6,7 @@ export const load = async ({ params }: { params: { slug?: Pages; lang?: Language
 
 	const slug = params.slug || 'home';
 	const lang = params.lang || defaultLang;
-	const menuEntries = menu[lang].entries.sort((a, b) => a.order - b.order);
+	const menuEntries = menu
 
 	return {
 		slug,

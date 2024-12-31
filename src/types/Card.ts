@@ -4,4 +4,23 @@ export type ProjectCard = {
 	date: string;
 	size: 'small' | 'medium' | 'large';
 	images: { src: string; alt: string }[];
+	column: number;
+	row: number;
+};
+
+export type TimelineCard = {
+	title: string;
+	description: string;
+	date: string;
+};
+
+export type ContactCard = {
+	image: {
+		src: string;
+		alt: string;
+	}
+	text: string;
+	phone: string;
+	email: string;
+	instagram: string;
 };

@@ -2,11 +2,13 @@
 	import BackgroundImage from '$lib/components/BackgroundImage.svelte';
 	import ProjectList from '$lib/components/ProjectList.svelte';
 	import type { ProjectCard } from '../../../types/Card';
-	import type { PageData } from '../../../types/DataInput';
+	import type { Languages, PageData } from '../../../types/DataInput';
 	import '../../../app.css';
+	import Timeline from '$lib/components/Timeline.svelte';
+	import ContactBlock from '$lib/components/ContactBlock.svelte';
 
-	export let data: { content: PageData };
-	const { background, projects } = data.content;
+	export let data: { content: PageData; lang: Languages };
+	const { background, projects, timelineProjects, contactInfo } = data.content;
 </script>
 
 {#if background}
@@ -20,4 +22,12 @@
 
 {#if projects}
 	<ProjectList list={projects as ProjectCard[]} />
+{/if}
+
+{#if timelineProjects}
+	<Timeline lang={data.lang} list={timelineProjects} />
+{/if}
+
+{#if contactInfo}
+	<ContactBlock content={contactInfo} />
 {/if}

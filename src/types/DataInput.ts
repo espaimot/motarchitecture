@@ -26,7 +26,18 @@ export type PageData = {
 		}[];
 	}[];
 	timelineProjects: {
+		title: string;
 		description: string;
 		date: string;
 	}[];
+	contactInfo: {
+		image: {
+			src: string;
+			alt: string;
+		};
+		text: string;
+		email: string;
+		phone: string;
+		instagram: string;
+	};
 };

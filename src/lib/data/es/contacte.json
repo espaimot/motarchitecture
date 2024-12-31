@@ -1,0 +1,14 @@
+{
+  "title": "Contacte",
+  "metadescription": "Test ES",
+  "contactInfo": {
+    "image": {
+      "src": "https://via.placeholder.com/150",
+      "alt": "Contact image"
+    },
+    "text": "Contact text",
+    "email": "unemail@unemail.com",
+    "phone": "123456789",
+    "instagram": "https//www.instagram.com"
+  }
+}

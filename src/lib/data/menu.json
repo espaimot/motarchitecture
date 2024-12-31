@@ -2,14 +2,19 @@
   "ca": {
     "entries": [
       {
-        "title": "Home CAT",
+        "title": "home CAT",
         "slug": "home",
         "order": 1
       },
       {
-        "title": "Projects CAT",
-        "slug": "projectos",
+        "title": "projects CAT",
+        "slug": "projectes",
         "order": 2
+      },
+      {
+        "title": "contacte CAT",
+        "slug": "contacte",
+        "order": 3
       }
     ]
   },
@@ -22,8 +27,13 @@
       },
       {
         "title": "Proyects ES",
-        "slug": "proyectos",
+        "slug": "projectes",
         "order": 2
+      },
+      {
+        "title": "Contacte ES",
+        "slug": "contacte",
+        "order": 3
       }
     ]
   },
@@ -36,8 +46,13 @@
       },
       {
         "title": "PROJECTS EN",
-        "slug": "proyectos",
+        "slug": "projectes",
         "order": 2
+      },
+      {
+        "title": "Contacte EN",
+        "slug": "contacte",
+        "order": 3
       }
     ]
   }

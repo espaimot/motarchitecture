@@ -12,8 +12,8 @@
   "projects": [
     {
       "title": "Project 1 CA",
-      "subtitle": "Project 1",
-      "cardSize": "medium",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cardSize": "small",
       "date": "2024-12",
       "images": [
         {
@@ -22,12 +22,14 @@
           "alt": "Chairs"
         }
       ],
-      "size": "medium"
+      "size": "small",
+      "column": 2,
+      "row": 1
     },
     {
       "title": "Project 2 CA",
       "subtitle": "Project 2 **content**",
-      "cardSize": "large",
+      "cardSize": "small",
       "date": "2024-11",
       "images": [
         {
@@ -36,7 +38,73 @@
           "alt": "Nose"
         }
       ],
-      "size": "large"
+      "size": "small",
+      "column": 5,
+      "row": 2
+    },
+    {
+      "title": "Project 2 CA",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "cardSize": "small",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "medium",
+      "column": 2,
+      "row": 3
+    },
+    {
+      "title": "Project 2 CA",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "cardSize": "small",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "small",
+      "column": 6,
+      "row": 5
+    },
+    {
+      "title": "Project 2 CA",
+      "subtitle": "Project 2 **content**",
+      "cardSize": "small",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "medium",
+      "column": 1,
+      "row": 6
+    },
+     {
+      "title": "Project 2 CA",
+      "subtitle": "Project 2 **content**",
+      "cardSize": "small",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/2.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "large",
+      "column": 3,
+      "row": 8
     }
   ],
   "contact": {

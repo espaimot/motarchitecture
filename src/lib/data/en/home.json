@@ -32,6 +32,11 @@
     }
   ],
   "background": {
-    "alt": "MOT architecture logo"
+    "image": "/media/background.jpg",
+    "enableP5": false,
+    "p5Code": "",
+    "src": "/media/background.jpg",
+    "alt": "MOT architecture logo",
+    "isP5enabled": false
   }
 }

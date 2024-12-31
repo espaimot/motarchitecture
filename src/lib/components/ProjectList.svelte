@@ -3,8 +3,6 @@
 	import type { ProjectCard } from '../../types/Card';
 
 	export let list: ProjectCard[];
-	const colPos = [2, 6, 3, 5, 1];
-	const rowPos = [1, 2, 3, 4, 5, 6];
 	const sizeToSpan = {
 		small: 1,
 		medium: 2,

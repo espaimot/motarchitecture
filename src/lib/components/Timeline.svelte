@@ -24,7 +24,7 @@
 	<ul
 		class="relative m-0 flex h-[90%] w-full list-none flex-col justify-between p-0 md:h-auto md:flex-row"
 	>
-		{#each list as { date, title, description }, i}
+		{#each list as { date, description }, i}
 			<li class="timeline-point relative flex flex-col items-center">
 				<div
 					class={`absolute ${i % 2 ? `md:top-[-40px]` : `md:top-[-90px]`} left-[-40px] flex w-[100px] cursor-pointer items-center justify-center md:left-auto`}
@@ -40,7 +40,6 @@
 					class="align-center tooltip absolute top-[30px] flex hidden min-w-[200px] flex-col items-center md:right-auto"
 				>
 					<div class="w-full bg-white p-4 shadow-md">
-						<div class="">{title}</div>
 						<div class="">{description}</div>
 					</div>
 				</div>

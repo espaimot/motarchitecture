@@ -2,17 +2,17 @@
   "ca": {
     "entries": [
       {
-        "title": "home CAT",
+        "title": "espai MOT",
         "slug": "home",
         "order": 1
       },
       {
-        "title": "projects CAT",
+        "title": "projectes",
         "slug": "projectes",
         "order": 2
       },
       {
-        "title": "contacte CAT",
+        "title": "contacte",
         "slug": "contacte",
         "order": 3
       }
@@ -21,17 +21,17 @@
   "es": {
     "entries": [
       {
-        "title": "HOME ES",
+        "title": "espacio MOT",
         "slug": "home",
         "order": 1
       },
       {
-        "title": "Proyects ES",
+        "title": "proyectos",
         "slug": "projectes",
         "order": 2
       },
       {
-        "title": "Contacte ES",
+        "title": "contacto",
         "slug": "contacte",
         "order": 3
       }
@@ -40,17 +40,17 @@
   "en": {
     "entries": [
       {
-        "title": "HOME EN",
+        "title": "MOT space",
         "slug": "home",
         "order": 1
       },
       {
-        "title": "PROJECTS EN",
+        "title": "projects",
         "slug": "projectes",
         "order": 2
       },
       {
-        "title": "Contacte EN",
+        "title": "contact",
         "slug": "contacte",
         "order": 3
       }

@@ -10,11 +10,6 @@ export type PageData = {
 		code: null;
 		isP5enabled: boolean;
 	};
-	contact: {
-		src: string;
-		alt: string;
-		text: string;
-	};
 	projects: {
 		title: string;
 		subtitle: string;
@@ -26,11 +21,10 @@ export type PageData = {
 		}[];
 	}[];
 	timelineProjects: {
-		title: string;
 		description: string;
 		date: string;
 	}[];
-	contactInfo: {
+	contact: {
 		image: {
 			src: string;
 			alt: string;

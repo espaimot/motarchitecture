@@ -9,7 +9,6 @@ export type ProjectCard = {
 };
 
 export type TimelineCard = {
-	title: string;
 	description: string;
 	date: string;
 };
@@ -18,7 +17,7 @@ export type ContactCard = {
 	image: {
 		src: string;
 		alt: string;
-	}
+	};
 	text: string;
 	phone: string;
 	email: string;

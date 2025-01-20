@@ -53,7 +53,8 @@ collections:
               label: 'Enable P5 (check only if P5 code is present)',
               name: 'isP5enabled',
               widget: 'boolean',
-              default: false
+              default: false,
+              required: false
             }
       - label: 'Contact'
         name: 'contact'
@@ -62,9 +63,25 @@ collections:
         required: false
         i18n: true
         fields:
-          - { label: 'Image', name: 'src', widget: 'image', required: false }
-          - { label: 'Image alt text', name: 'alt', widget: 'string', required: false, i18n: true }
+          - label: 'Image'
+            name: 'image'
+            widget: 'object'
+            collapsed: true
+            required: true
+            i18n: false
+            fields:
+              - { label: 'Image', name: 'src', widget: 'image', required: false }
+              - {
+                  label: 'Image alt text',
+                  name: 'alt',
+                  widget: 'string',
+                  required: false,
+                  i18n: true
+                }
           - { label: 'Text', name: 'text', widget: 'markdown', i18n: true, required: false }
+          - { label: 'Email', name: 'email', widget: 'string', required: false }
+          - { label: 'Phone', name: 'phone', widget: 'string', required: false }
+          - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
       - label: 'Projects'
         name: 'projects'
         widget: 'list'

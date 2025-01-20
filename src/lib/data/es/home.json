@@ -13,8 +13,7 @@
           "src": "/media/1.jpg",
           "alt": "Chairs"
         }
-      ],
-      "size": "medium"
+      ]
     },
     {
       "title": "Project 2 ES",
@@ -27,7 +26,7 @@
           "alt": "Nose"
         }
       ],
-      "size": "large"
+      "cardSize": "large"
     }
   ],
   "background": {

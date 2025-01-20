@@ -8,7 +8,7 @@
 	import ContactBlock from '$lib/components/ContactBlock.svelte';
 
 	export let data: { content: PageData; lang: Languages };
-	const { background, projects, timelineProjects, contactInfo } = data.content;
+	const { background, projects, timelineProjects, contact } = data.content;
 </script>
 
 {#if background}
@@ -28,6 +28,6 @@
 	<Timeline lang={data.lang} list={timelineProjects} />
 {/if}
 
-{#if contactInfo}
-	<ContactBlock content={contactInfo} />
+{#if contact}
+	<ContactBlock content={contact} />
 {/if}

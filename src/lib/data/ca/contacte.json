@@ -1,14 +1,19 @@
 {
   "title": "Contacte",
   "metadescription": "Test CA",
-  "contactInfo": {
+  "contact": {
+    "src": "/media/background.jpg",
+    "alt": "TEST",
+    "text": "TEXTO TEXTO TEXTO\n\n[LINK](https://google.es)",
     "image": {
-      "src": "https://via.placeholder.com/150",
-      "alt": "Contact image"
+      "src": "/media/background.jpg",
+      "alt": "PRUEBAALT"
     },
-    "text": "Contact text",
-    "email": "unemail@unemail.com",
-    "phone": "123456789",
-    "instagram": "https//www.instagram.com"
+    "email": "kljfalkjfaljkas",
+    "phone": "dflkjasdflkajla",
+    "instagram": "fldkjdaslkfjsdlkfjs"
+  },
+  "background": {
+    "isP5enabled": false
   }
 }

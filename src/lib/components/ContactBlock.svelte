@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { marked } from 'marked';
+	import DOMPurify from 'isomorphic-dompurify';
 	import type { ContactCard } from '../../types/Card';
 
 	export let content: ContactCard;
@@ -10,7 +12,8 @@
 	{/if}
 	<div class="text-md flex flex-col items-center justify-center gap-2 font-light">
 		{#if content.text}
-			<div>{content.text}</div>
+			// Sveltekit content policy is configured so this is not a security risk
+			<div>{@html DOMPurify.sanitize(marked(content.text))}</div>
 		{/if}
 		{#if content.email}
 			<a href={`mailto:${content.email}`} class="underline">{content.email}</a>

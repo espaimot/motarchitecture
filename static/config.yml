@@ -1,6 +1,6 @@
-local_backend: true
 backend:
-  name: git-gateway
+  name: github
+  repo: espaimot/motarchitecture
 media_folder: 'static/media'
 public_folder: '/media'
 display_url: https://your-site.com

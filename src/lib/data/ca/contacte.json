@@ -4,7 +4,7 @@
   "contact": {
     "src": "/media/background.jpg",
     "alt": "TEST",
-    "text": "TEXTO TEXTO TEXTO\n\n[LINK](https://google.es)",
+    "text": "TEXTO TEXTO TEXTO\n\n[LINK](https://google.es)\n\n[](https://google.es)Otra línea[](https://google.es)",
     "image": {
       "src": "/media/background.jpg",
       "alt": "PRUEBAALT"

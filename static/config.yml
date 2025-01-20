@@ -106,6 +106,8 @@ collections:
             fields:
               - { label: 'Image', name: 'src', widget: 'image', required: true }
               - { label: 'Image Alt', name: 'alt', widget: 'string', required: false }
+          - { label: 'Row', name: 'row', widget: 'number', required: false }
+          - { label: 'Column', name: 'column', widget: 'number', required: false }
       - label: 'Timeline projects'
         name: 'timelineProjects'
         widget: 'list'

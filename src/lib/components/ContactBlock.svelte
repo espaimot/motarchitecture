@@ -12,8 +12,9 @@
 	{/if}
 	<div class="text-md flex flex-col items-center justify-center gap-2 font-light">
 		{#if content.text}
-			// Sveltekit content policy is configured so this is not a security risk
-			<div>{@html DOMPurify.sanitize(marked(content.text))}</div>
+			<!-- Sveltekit content policy is configured so this is not a security risk -->
+			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+			<div>{@html DOMPurify.sanitize(marked(content.text, { async: false }))}</div>
 		{/if}
 		{#if content.email}
 			<a href={`mailto:${content.email}`} class="underline">{content.email}</a>

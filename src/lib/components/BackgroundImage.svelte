@@ -81,11 +81,21 @@
 		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
 	</div>
 {:else}
-	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
+	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full flex-col items-center justify-start">
+		<!-- <h1 class="text-400 pt-[175px] font-['Gugi'] text-[12rem] leading-[12rem] text-slate-800">
+			MOT
+		</h1>
+		<h2
+			class="text-400 align-right mb-[2rem] mr-[-11rem] font-['Roboto'] text-[2.5rem] leading-[2rem] tracking-wider text-slate-800"
+		>
+			arquitectura
+		</h2> -->
+		<img
+			{src}
+			{alt}
+			class="animated-image h-auto w-full max-w-[900px] rounded-md pt-[170px] md:mb-[-80px] md:w-[50%] md:pt-[80px]"
+		/>
 		<P5 {sketch} />
-	</div>
-	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
-		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
 	</div>
 {/if}
 

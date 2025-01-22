@@ -10,28 +10,27 @@
 		sketch = (p5) => {
 			let cols = 20;
 			let rows = 20;
-			let size = 10;
+			let size = 12;
 			let xoff = 0;
 			let yoff = 0;
 			let zoff = 0;
-			let inc = 0.1;
-			let heightScrollInc = 0.009;
+			let inc = 0.05;
+			let heightScrollInc = 0.02;
 			let heightInc = 0.00005;
 
-			let maxHeight = 290;
+			let maxHeight = 250;
 
 			let width = 0;
 
 			let totalWidth = 0;
 
 			p5.setup = () => {
-				width = Math.max(400, window.innerWidth);
+				width = Math.max(350, window.innerWidth);
 
-				p5.createCanvas(width, 400, p5.WEBGL);
-				p5.rectMode(p5.CENTER);
+				p5.createCanvas(width, 380, p5.WEBGL);
 				p5.angleMode(p5.DEGREES);
 
-				totalWidth = cols * (size * Math.sqrt(2));
+				totalWidth = cols * size;
 			};
 
 			p5.draw = () => {
@@ -51,9 +50,9 @@
 						// const g = p5.noise(zoff + 10) * 255;
 						// const b = p5.noise(zoff + 40) * 255;
 
-						const r = 0;
-						const g = 79;
-						const b = 32;
+						const r = 130;
+						const g = 172;
+						const b = 152;
 
 						p5.fill(r, g, b);
 						p5.push();
@@ -77,13 +76,18 @@
 	}
 </script>
 
-<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
-	{#if !isP5enabled}
+{#if !isP5enabled}
+	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
 		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
-	{:else}
+	</div>
+{:else}
+	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
 		<P5 {sketch} />
-	{/if}
-</div>
+	</div>
+	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full items-center justify-center">
+		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
+	</div>
+{/if}
 
 <style>
 	@keyframes invertToNormal {

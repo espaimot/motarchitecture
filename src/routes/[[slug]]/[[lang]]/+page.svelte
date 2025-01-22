@@ -12,12 +12,7 @@
 </script>
 
 {#if background}
-	<BackgroundImage
-		isP5enabled={background.isP5enabled}
-		src={background.src}
-		alt={background.alt}
-		code={background.code}
-	/>
+	<BackgroundImage isP5enabled={background.isP5enabled} src={background.src} alt={background.alt} />
 {/if}
 
 {#if projects}

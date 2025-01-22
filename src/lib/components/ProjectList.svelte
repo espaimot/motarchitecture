@@ -10,11 +10,9 @@
 	};
 </script>
 
-<ul class="z-1 relative grid h-[2000px] grid-cols-6 grid-rows-10 pt-8 md:h-[5000px]">
+<ul class="z-1 relative grid h-[2000px] grid-cols-6 grid-rows-10 pt-8 md:h-[4000px]">
 	{#each list as card}
-		<li
-			class={`min-w-[150px] col-span-${sizeToSpan[card.size]} col-start-${card.column} row-start-${card.row}`}
-		>
+		<li class={`col-span-${sizeToSpan[card.size]} col-start-${card.column} row-start-${card.row}`}>
 			<Card {card} />
 		</li>
 	{/each}

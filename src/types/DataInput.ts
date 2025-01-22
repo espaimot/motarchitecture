@@ -7,7 +7,6 @@ export type PageData = {
 	background: {
 		src: string;
 		alt: string;
-		code: null;
 		isP5enabled: boolean;
 	};
 	projects: {

@@ -5,18 +5,16 @@
     {
       "title": "Proyecto 1",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "cardSize": "medium",
       "date": "2024-12",
       "images": [
         {
-          "image": "/media/1.jpg",
           "src": "/media/1.jpg",
-          "alt": "Chairs"
+          "alt": "Plano"
         }
       ],
       "size": "small",
-      "row": 1,
-      "column": 2
+      "column": 2,
+      "row": 1
     },
     {
       "title": "Proyecto 2",
@@ -29,64 +27,78 @@
           "alt": "Nose"
         }
       ],
-      "cardSize": "large",
       "size": "small",
-      "row": 2,
-      "column": 5
+      "column": 5,
+      "row": 2
     },
     {
       "title": "Proyecto 3",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "date": "2024-01",
+      "date": "2024-11",
       "images": [
         {
-          "src": "/media/3.jpg"
+          "image": "/media/2.jpg",
+          "src": "/media/3.jpg",
+          "alt": "Nose"
         }
       ],
-      "row": 3,
-      "column": 2
+      "size": "medium",
+      "column": 2,
+      "row": 3
     },
     {
       "title": "Proyecto 4",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "size": "small",
       "date": "2024-11",
       "images": [
         {
-          "src": "/media/4.jpg"
+          "image": "/media/2.jpg",
+          "src": "/media/4.jpg",
+          "alt": "Nose"
         }
       ],
-      "row": 5,
-      "column": 6
+      "size": "small",
+      "column": 6,
+      "row": 5
     },
     {
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "title": "Proyecto 5",
-      "size": "medium",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "date": "2024-11",
       "images": [
         {
-          "src": "/media/5.jpg"
+          "image": "/media/2.jpg",
+          "src": "/media/5.jpg",
+          "alt": "Nose"
         }
       ],
-      "row": 6,
-      "column": 1
+      "size": "medium",
+      "column": 1,
+      "row": 6
     },
     {
       "title": "Proyecto 6",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "size": "large",
       "date": "2024-11",
       "images": [
         {
-          "src": "/media/6.jpg"
+          "image": "/media/2.jpg",
+          "src": "/media/6.jpg",
+          "alt": "Nose"
         }
       ],
-      "row": 8,
-      "column": 3
+      "size": "large",
+      "column": 3,
+      "row": 8
     }
   ],
   "background": {
-    "alt": "MOT architectura logo"
+    "src": "/media/background.png",
+    "alt": "MOT architecture logo",
+    "isP5enabled": true
+  },
+  "contact": {
+    "image": "",
+    "text": ""
   }
 }

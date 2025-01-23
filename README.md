@@ -129,26 +129,8 @@ Start the development server:
 pnpm run dev
 ```
 
-### Building for Production
-
-Create a production build of the application:
-
-```sh
-pnpm run build
-```
-
-### Previewing the Production Build
-
-Preview the production build:
-
-```sh
-pnpm run preview
-```
-
 ## License
 
 This project is licensed under the MIT License.
-
----
 
 Enjoy coding with passion and creativity! 💃

@@ -23,7 +23,7 @@
     },
     {
       "title": "Projecte 2",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur **adipiscing** elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "date": "2024-11",
       "images": [
         {

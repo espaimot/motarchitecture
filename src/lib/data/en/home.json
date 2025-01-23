@@ -3,20 +3,23 @@
   "metadescription": "Test EN",
   "projects": [
     {
-      "title": "Project 1 EN",
-      "subtitle": "Project 1 EN",
-      "cardSize": "medium",
+      "title": "Project 1",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "date": "2024-12",
       "images": [
         {
-          "image": "/media/1.jpg",
           "src": "/media/1.jpg",
-          "alt": "Chairs"
+          "alt": "Plano"
         }
       ],
-      "size": "medium"
+      "size": "small",
+      "column": 2,
+      "row": 1
     },
     {
+      "title": "Project 2",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur **adipiscing** elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "date": "2024-11",
       "images": [
         {
           "image": "/media/2.jpg",
@@ -24,19 +27,78 @@
           "alt": "Nose"
         }
       ],
+      "size": "small",
+      "column": 5,
+      "row": 2
+    },
+    {
+      "title": "Project 3",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "date": "2024-11",
-      "cardSize": "large",
-      "subtitle": "Project 2 **content**",
-      "title": "Project 2 EN",
-      "size": "large"
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/3.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "medium",
+      "column": 2,
+      "row": 3
+    },
+    {
+      "title": "Project 4",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/4.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "small",
+      "column": 6,
+      "row": 5
+    },
+    {
+      "title": "Project 5",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/5.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "medium",
+      "column": 1,
+      "row": 6
+    },
+    {
+      "title": "Project 6",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2024-11",
+      "images": [
+        {
+          "image": "/media/2.jpg",
+          "src": "/media/6.jpg",
+          "alt": "Nose"
+        }
+      ],
+      "size": "large",
+      "column": 3,
+      "row": 8
     }
   ],
   "background": {
-    "image": "/media/background.jpg",
-    "enableP5": false,
-    "p5Code": "",
-    "src": "/media/background.jpg",
+    "src": "/media/background.png",
     "alt": "MOT architecture logo",
-    "isP5enabled": false
+    "isP5enabled": true
+  },
+  "contact": {
+    "image": "",
+    "text": ""
   }
 }

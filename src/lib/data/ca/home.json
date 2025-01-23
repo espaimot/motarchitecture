@@ -15,6 +15,9 @@
         {
           "src": "/media/1.jpg",
           "alt": "Plano"
+        },
+        {
+          "src": "/media/2.jpg"
         }
       ],
       "size": "small",

@@ -37,7 +37,7 @@
 
 				<div class="point h-2 w-2 cursor-pointer rounded-full bg-black"></div>
 				<div
-					class="align-center tooltip absolute top-[30px] flex hidden min-w-[200px] flex-col items-center md:right-auto"
+					class="align-center tooltip absolute top-[30px] flex hidden min-w-[300px] flex-col items-center md:right-auto"
 				>
 					<div class="w-full bg-white p-4 shadow-md">
 						<div class="">{description}</div>

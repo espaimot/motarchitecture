@@ -93,7 +93,7 @@
 		<img
 			{src}
 			{alt}
-			class="animated-image mb-[-80px] h-auto w-full max-w-[900px] rounded-md pt-[100px] md:w-[40%] md:pt-[120px]"
+			class="animated-image mb-[-70px] h-auto w-full max-w-[900px] rounded-md pt-[100px] md:w-[40%] md:pt-[120px]"
 		/>
 		<P5 {sketch} />
 	</div>

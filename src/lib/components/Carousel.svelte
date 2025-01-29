@@ -8,7 +8,7 @@
 	$: imageIndex = 0;
 </script>
 
-<div class="flex w-full flex-col gap-2 pt-12 md:pt-0">
+<div class="flex h-[50vh] w-full flex-col gap-2 pt-12 md:h-auto md:pt-0">
 	<div class="flex w-full justify-start gap-4">
 		<button type="button" disabled={imageIndex <= 0} on:click={() => (imageIndex -= 1)}
 			><ChevronLeft size={20} stroke={2} /></button

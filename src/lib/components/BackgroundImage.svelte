@@ -10,7 +10,7 @@
 		sketch = (p5) => {
 			let cols = 20;
 			let rows = 20;
-			let size = 12;
+			let size = 10;
 			let xoff = 0;
 			let yoff = 0;
 			let zoff = 0;
@@ -81,7 +81,7 @@
 		<img {src} {alt} class="animated-image h-auto w-[90%] max-w-[900px] rounded-md md:w-[70%]" />
 	</div>
 {:else}
-	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full flex-col items-center justify-start">
+	<div class="fixed left-0 top-0 z-[-1] flex h-full w-full flex-col items-center justify-center">
 		<!-- <h1 class="text-400 pt-[175px] font-['Gugi'] text-[12rem] leading-[12rem] text-slate-800">
 			MOT
 		</h1>
@@ -93,7 +93,7 @@
 		<img
 			{src}
 			{alt}
-			class="animated-image h-auto w-full max-w-[900px] rounded-md pt-[170px] md:mb-[-80px] md:w-[40%] md:pt-[120px]"
+			class="animated-image mb-[-80px] h-auto w-full max-w-[900px] rounded-md pt-[100px] md:w-[40%] md:pt-[120px]"
 		/>
 		<P5 {sketch} />
 	</div>

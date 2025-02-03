@@ -77,7 +77,7 @@
 
 	.card.expanded .card-overlay {
 		opacity: 1;
-		background-color: rgba(255, 255, 255, 0.9);
+		background-color: rgba(255, 255, 255);
 	}
 
 	.close-button {

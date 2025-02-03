@@ -8,7 +8,6 @@
 	function formatDate(dateString: string, lang: Languages): string {
 		const date = new Date(dateString);
 		const options: Intl.DateTimeFormatOptions = {
-			day: '2-digit',
 			month: '2-digit',
 			year: '2-digit'
 		};

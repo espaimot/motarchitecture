@@ -7,7 +7,7 @@
 	export let menu: MenuMultiLang;
 	export let lang: string;
 	export let defaultLang: string;
-	const languages = ['en', 'ca', 'es'];
+	const languages = ['en', 'ca'];
 
 	let active: string = '';
 	onMount(() => {
@@ -36,14 +36,14 @@
 			<li class={`absolute left-8 top-0 flex gap-1 md:top-2`}>
 				{#each languages as language}
 					<a
-						class={`cursor-pointer ${lang === language ? 'border-b border-black pb-[0px]' : ''}`}
+						class={`cursor-pointer hover:shadow-xl ${lang === language ? 'hidden' : ''}`}
 						on:click={() => {
 							lang = language;
 							open = false;
 						}}
 						href={buildLinkTranslation(language)}
 					>
-						{language} .
+						{language}
 					</a>
 				{/each}
 			</li>

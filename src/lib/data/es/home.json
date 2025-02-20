@@ -4,20 +4,20 @@
   "projects": [
     {
       "title": "Proyecto 1",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "date": "2024-12",
+      "subtitle": "The proposal seeks to transform this square located in Nou Barris into the new “Placeta Teatre Charlot”. The intervention of the blind wall is conceived as an opportunity to convert the square into a new urban facility that fosters a sense of belonging among the neighbours, where daily activity and recreation are always at the centre.\n\nThe name of this little square commemorates the memory and legacy of Carmelo Tusquellas, a comic imitator of Chaplin and famous for his “charlotades”, who combined his role as a neighbourhood activist with that of a comic bullfighter. The square bearing his name aims to be a versatile space that invites enjoyment and leisure, a place to play but also to host neighbourhood meetings or local events, small concerts, and plays.\n\nThe comprehensive rehabilitation of the party wall is conceived with the conceptual idea of obtaining a theatre configuration. The new facade proposes a composition of independent balconies that imitate theatre boxes; the elevated platform at the lower part serves as the stalls, a large space to sit and stay, and finally, at the centre of the square is the stage with the fountain at the centre, becoming the central point of the show.\n\nThe materials used aim to be distinctive to help reinforce the identity of the square. The new facade consists of a lightweight structure of tubular profiles painted blue. This colour brings a touch of vitality while claiming a festive spirit. Various planters hang between the balconies, intertwining with the finishing mesh of the balcony doors, and solar panels top the upper part of the balconies to complete the box composition. In contrast, the platform and the deck use edge-laid bricks, showcasing the terracotta colour and forming a solid urban furniture that many people can simultaneously enjoy.\n\nTo ensure the function of the neighbourhood facility and avoid unnecessary openings, the right column of the facade is not accessible from inside the residences. It is a technical route that ensures necessary operations for maintaining and managing the space are carried out safely without interfering with the daily use of the neighbours. It guarantees a space for lighting and sound technicians for the shows taking place in the square, as well as for the panel technicians.\n\nIn conclusion, “Placeta Teatre Charlot” not only represents a physical transformation but also entails a social and cultural resignification. The reinterpretation of the party wall as a theatre box and the integration of the fountain as a scenic centre turn the square into a stage for everyday life. This project not only improves the urban environment but also strengthens the sense of community, offering residents a meeting, leisure, and cultural space that contributes to collective well-being and the neighbourhood’s identity. With this intervention, we hope “Placeta Teatre Charlot” becomes a reference for coexistence and creativity, enriching urban life and fostering a spirit of cohesion and citizen participation.",
+      "date": "2025-02",
       "images": [
         {
-          "src": "/media/1.jpg",
+          "src": "/media/vista-nit-final-llum.jpg",
           "alt": "Plano"
         },
         {
-          "src": "/media/2.jpg"
+          "src": "/media/vista-1-final-.jpg"
         }
       ],
-      "size": "small",
+      "size": "medium",
       "column": 2,
-      "row": 1
+      "row": 2
     },
     {
       "title": "Proyecto 2",

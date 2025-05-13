@@ -9,7 +9,7 @@
       {
         "title": "contacte",
         "slug": "contacte",
-        "order": 3
+        "order": 2
       }
     ]
   },
@@ -23,7 +23,7 @@
       {
         "title": "contacto",
         "slug": "contacte",
-        "order": 3
+        "order": 2
       }
     ]
   },
@@ -37,7 +37,7 @@
       {
         "title": "contact",
         "slug": "contacte",
-        "order": 3
+        "order": 2
       }
     ]
   }

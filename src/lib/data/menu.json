@@ -2,14 +2,9 @@
   "ca": {
     "entries": [
       {
-        "title": "espai MOT",
+        "title": "MOT",
         "slug": "home",
         "order": 1
-      },
-      {
-        "title": "projectes",
-        "slug": "projectes",
-        "order": 2
       },
       {
         "title": "contacte",
@@ -21,14 +16,9 @@
   "es": {
     "entries": [
       {
-        "title": "espacio MOT",
+        "title": "MOT",
         "slug": "home",
         "order": 1
-      },
-      {
-        "title": "proyectos",
-        "slug": "projectes",
-        "order": 2
       },
       {
         "title": "contacto",
@@ -40,14 +30,9 @@
   "en": {
     "entries": [
       {
-        "title": "MOT space",
+        "title": "MOT",
         "slug": "home",
         "order": 1
-      },
-      {
-        "title": "projects",
-        "slug": "projectes",
-        "order": 2
       },
       {
         "title": "contact",

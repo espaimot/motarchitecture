@@ -13,10 +13,11 @@
           "src": "/media/casa-mosaic_page-0001.jpg"
         }
       ],
-      "row": 0,
+      "row": 4,
       "column": 3,
       "size": "large",
-      "title": "Casa Mosaic"
+      "title": "Casa Mosaic",
+      "date": "2025-05"
     },
     {
       "images": [
@@ -27,22 +28,26 @@
       "row": 5,
       "column": 4,
       "size": "medium",
-      "title": "Biombo"
+      "title": "Biombo",
+      "date": "2025-05"
     },
     {
       "title": "Plaça Teatre  ",
       "size": "medium",
-      "row": -8,
+      "row": 2,
       "column": 5,
       "images": [
         {
           "src": "/media/esquema-andami_page-0001.jpg"
         }
-      ]
+      ],
+      "date": "2025-05"
     }
   ],
   "contact": {
-    "image": "",
-    "text": ""
+    "image": {
+      "src": "/media/untitled-2.jpg"
+    },
+    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler \n\nCarrer Jaén 6, 08012, Barcelona"
   }
 }

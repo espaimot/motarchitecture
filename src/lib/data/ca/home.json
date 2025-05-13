@@ -4,7 +4,7 @@
   "background": {
     "src": "/media/background.png",
     "alt": "MOT architecture logo",
-    "isP5enabled": true
+    "isP5enabled": false
   },
   "projects": [
     {

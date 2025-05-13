@@ -6,7 +6,28 @@
     "alt": "MOT architecture logo",
     "isP5enabled": false
   },
-  "projects": [],
+  "projects": [
+    {
+      "images": [
+        {
+          "src": "/media/casa-mosaic_page-0001.jpg"
+        }
+      ],
+      "row": 2,
+      "column": 3,
+      "size": "large",
+      "title": "Casa Mosaic"
+    },
+    {
+      "images": [
+        {
+          "src": "/media/vistes-biombo-ombres_page-0001-1-.jpg"
+        }
+      ],
+      "row": 5,
+      "column": 4
+    }
+  ],
   "contact": {
     "image": "",
     "text": ""

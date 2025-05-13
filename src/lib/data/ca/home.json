@@ -13,7 +13,7 @@
           "src": "/media/casa-mosaic_page-0001.jpg"
         }
       ],
-      "row": 2,
+      "row": 0,
       "column": 3,
       "size": "large",
       "title": "Casa Mosaic"
@@ -25,7 +25,20 @@
         }
       ],
       "row": 5,
-      "column": 4
+      "column": 4,
+      "size": "medium",
+      "title": "Biombo"
+    },
+    {
+      "title": "Plaça Teatre  ",
+      "size": "medium",
+      "row": -8,
+      "column": 5,
+      "images": [
+        {
+          "src": "/media/esquema-andami_page-0001.jpg"
+        }
+      ]
     }
   ],
   "contact": {

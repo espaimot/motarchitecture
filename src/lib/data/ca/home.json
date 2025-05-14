@@ -14,11 +14,11 @@
         }
       ],
       "row": 4,
-      "column": 3,
-      "size": "large",
+      "column": 1,
+      "size": "small",
       "title": "Casa Mosaic",
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "images": [
@@ -27,11 +27,11 @@
         }
       ],
       "row": 9,
-      "column": 2,
-      "size": "medium",
+      "column": 1,
+      "size": "small",
       "title": "Biombo Casa Orlandai",
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "title": "The everyday performance",
@@ -44,7 +44,43 @@
         }
       ],
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
+    },
+    {
+      "images": [
+        {
+          "src": "/media/mosca_page-0001.jpg"
+        }
+      ],
+      "column": 1,
+      "row": 9,
+      "size": "small",
+      "title": "Teatre Charlot",
+      "date": "2025-05"
+    },
+    {
+      "size": "small",
+      "date": "2025-05",
+      "title": "Habitar la mort",
+      "images": [
+        {
+          "src": "/media/1_colita-cementiri-de-poblenou.jpg"
+        }
+      ],
+      "row": 11,
+      "column": 3
+    },
+    {
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/img_2013.jpg"
+        }
+      ],
+      "row": 12,
+      "column": 6,
+      "title": "Neuma"
     }
   ],
   "contact": {
@@ -52,6 +88,6 @@
       "src": "/media/untitled-2.jpg",
       "alt": "equip"
     },
-    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler \n\nCarrer Jaén 6, 08012, Barcelona"
+    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n[Carrer Jaén 6, 08012, Barcelona](<>)[](<>)\n[Instagram](https://www.instagram.com/mot.arq/)"
   }
 }

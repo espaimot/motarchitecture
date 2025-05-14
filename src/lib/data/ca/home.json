@@ -97,6 +97,71 @@
       "row": 5,
       "title": "Santa Maria 15861",
       "subtitle": "\\-"
+    },
+    {
+      "images": [
+        {
+          "src": "/media/img_20241106_134622.jpg"
+        }
+      ],
+      "size": "small",
+      "title": "Sant Francesc 1",
+      "subtitle": "\\-",
+      "date": "2025-05",
+      "column": 2,
+      "row": 6
+    },
+    {
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/1741719822141.jpg"
+        }
+      ],
+      "size": "small",
+      "row": 8,
+      "column": 6,
+      "title": "Nàpols 255",
+      "subtitle": "\\-"
+    },
+    {
+      "title": "Manuel de Falla 161",
+      "subtitle": "\\-",
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/xref_potato-plan_bernat-esquema-1_page-0001.jpg"
+        }
+      ],
+      "row": 14,
+      "column": 1
+    },
+    {
+      "date": "2025-05",
+      "size": "small",
+      "title": "Sant Isidre 18",
+      "subtitle": "\\-",
+      "images": [
+        {
+          "src": "/media/pxl_20250408_123631010.jpg"
+        }
+      ],
+      "row": 16,
+      "column": 5
+    },
+    {
+      "title": "Sant Antoni 222",
+      "subtitle": "\\-",
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/pxl_20250409_142644670.jpg"
+        }
+      ],
+      "row": 17,
+      "column": 3
     }
   ],
   "contact": {

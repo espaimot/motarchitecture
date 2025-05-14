@@ -2,7 +2,7 @@
   "title": "Home",
   "metadescription": "Test CA",
   "background": {
-    "src": "/media/mot-insta.jpg",
+    "src": "/media/background.png",
     "alt": "MOT architecture logo",
     "isP5enabled": false
   },

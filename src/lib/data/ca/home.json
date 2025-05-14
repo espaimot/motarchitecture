@@ -18,7 +18,7 @@
       "size": "small",
       "title": "Casa Mosaic",
       "date": "2025-05",
-      "subtitle": ""
+      "subtitle": "\\-"
     },
     {
       "images": [
@@ -31,7 +31,7 @@
       "size": "small",
       "title": "Biombo Casa Orlandai",
       "date": "2025-05",
-      "subtitle": ""
+      "subtitle": "\\-"
     },
     {
       "title": "The everyday performance",
@@ -44,7 +44,7 @@
         }
       ],
       "date": "2025-05",
-      "subtitle": ""
+      "subtitle": "\\-"
     },
     {
       "images": [
@@ -56,7 +56,8 @@
       "row": 7,
       "size": "small",
       "title": "Teatre Charlot",
-      "date": "2025-05"
+      "date": "2025-05",
+      "subtitle": "\\-"
     },
     {
       "size": "small",
@@ -68,7 +69,8 @@
         }
       ],
       "row": 11,
-      "column": 3
+      "column": 3,
+      "subtitle": "\\-"
     },
     {
       "size": "small",
@@ -80,7 +82,8 @@
       ],
       "row": 12,
       "column": 6,
-      "title": "Neuma"
+      "title": "Neuma",
+      "subtitle": "\\-"
     }
   ],
   "contact": {

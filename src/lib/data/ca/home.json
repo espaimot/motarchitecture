@@ -18,7 +18,7 @@
       "size": "small",
       "title": "Casa Mosaic",
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "images": [
@@ -31,7 +31,7 @@
       "size": "small",
       "title": "Biombo Casa Orlandai",
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "title": "The everyday performance",
@@ -44,7 +44,7 @@
         }
       ],
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "images": [
@@ -57,7 +57,7 @@
       "size": "small",
       "title": "Teatre Charlot",
       "date": "2025-05",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "size": "small",
@@ -70,7 +70,7 @@
       ],
       "row": 11,
       "column": 3,
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "size": "small",
@@ -83,7 +83,7 @@
       "row": 12,
       "column": 6,
       "title": "Neuma",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "size": "small",
@@ -96,7 +96,7 @@
       "column": 4,
       "row": 5,
       "title": "Santa Maria 15861",
-      "subtitle": "\\-"
+      "subtitle": ""
     },
     {
       "images": [
@@ -106,7 +106,7 @@
       ],
       "size": "small",
       "title": "Sant Francesc 1",
-      "subtitle": "\\-",
+      "subtitle": "",
       "date": "2025-05",
       "column": 2,
       "row": 6
@@ -126,7 +126,7 @@
     },
     {
       "title": "Manuel de Falla 161",
-      "subtitle": "\\-",
+      "subtitle": "",
       "size": "small",
       "date": "2025-05",
       "images": [
@@ -134,25 +134,25 @@
           "src": "/media/xref_potato-plan_bernat-esquema-1_page-0001.jpg"
         }
       ],
-      "row": 14,
+      "row": 12,
       "column": 1
     },
     {
       "date": "2025-05",
       "size": "small",
       "title": "Sant Isidre 18",
-      "subtitle": "\\-",
+      "subtitle": "",
       "images": [
         {
           "src": "/media/pxl_20250408_123631010.jpg"
         }
       ],
-      "row": 16,
-      "column": 5
+      "row": 10,
+      "column": 4
     },
     {
       "title": "Sant Antoni 222",
-      "subtitle": "\\-",
+      "subtitle": "",
       "size": "small",
       "date": "2025-05",
       "images": [

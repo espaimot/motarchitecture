@@ -52,7 +52,7 @@
           "src": "/media/mosca_page-0001.jpg"
         }
       ],
-      "column": 2,
+      "column": 5,
       "row": 7,
       "size": "small",
       "title": "Teatre Charlot",
@@ -84,6 +84,19 @@
       "column": 6,
       "title": "Neuma",
       "subtitle": "\\-"
+    },
+    {
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/pxl_20250121_091323355-1.jpg"
+        }
+      ],
+      "column": 4,
+      "row": 5,
+      "title": "Santa Maria 15861",
+      "subtitle": "\\-"
     }
   ],
   "contact": {
@@ -91,6 +104,6 @@
       "src": "/media/untitled-2.jpg",
       "alt": "equip"
     },
-    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n\nCarrer Jaén 6, 08012, Barcelona[](<>)[](<>)[](https://www.instagram.com/mot.arq/)\n\n\\[espai.mot@gmail.com](mailto:espai.mot@gmail.com)\n\n\\[Instagram](https://www.instagram.com/mot.arq/)"
+    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n\nCarrer Jaén 6, 08012, Barcelona[](<>)\n\n[@mot.arq](https://www.instagram.com/mot.arq/)"
   }
 }

@@ -15,7 +15,7 @@
       ],
       "row": 4,
       "column": 1,
-      "size": "large",
+      "size": "medium",
       "title": "Casa Mosaic",
       "date": "2025-05",
       "subtitle": ""
@@ -28,7 +28,7 @@
       ],
       "row": 9,
       "column": 1,
-      "size": "large",
+      "size": "medium",
       "title": "Biombo Casa Orlandai",
       "date": "2025-05",
       "subtitle": ""
@@ -60,7 +60,7 @@
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
       "title": "Habitar la mort",
       "images": [
@@ -86,7 +86,7 @@
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
       "images": [
         {
@@ -104,7 +104,7 @@
           "src": "/media/img_20241106_134622.jpg"
         }
       ],
-      "size": "medium",
+      "size": "small",
       "title": "Sant Francesc 1",
       "subtitle": "",
       "date": "2025-05",
@@ -156,6 +156,6 @@
       "src": "",
       "alt": ""
     },
-    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n\n[Carrer Jaén 6, 08012, Barcelona](https://maps.app.goo.gl/nUSS7d8cjkbdDkQt9)[](<>)\n\n[@mot.arq](https://www.instagram.com/mot.arq/)"
+    "text": "[](https://www.instagram.com/mot.arq/)"
   }
 }

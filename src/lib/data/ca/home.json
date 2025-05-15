@@ -60,7 +60,7 @@
       "subtitle": ""
     },
     {
-      "size": "large",
+      "size": "medium",
       "date": "2025-05",
       "title": "Habitar la mort",
       "images": [
@@ -73,7 +73,7 @@
       "subtitle": ""
     },
     {
-      "size": "large",
+      "size": "medium",
       "date": "2025-05",
       "images": [
         {
@@ -86,7 +86,7 @@
       "subtitle": ""
     },
     {
-      "size": "large",
+      "size": "medium",
       "date": "2025-05",
       "images": [
         {
@@ -104,7 +104,7 @@
           "src": "/media/img_20241106_134622.jpg"
         }
       ],
-      "size": "large",
+      "size": "medium",
       "title": "Sant Francesc 1",
       "subtitle": "",
       "date": "2025-05",
@@ -118,7 +118,7 @@
           "src": "/media/1741719822141.jpg"
         }
       ],
-      "size": "large",
+      "size": "medium",
       "row": 8,
       "column": 6,
       "title": "Nàpols 255",
@@ -126,7 +126,7 @@
     },
     {
       "date": "2025-05",
-      "size": "large",
+      "size": "medium",
       "title": "Sant Isidre 18",
       "subtitle": "",
       "images": [
@@ -140,7 +140,7 @@
     {
       "title": "Sant Antoni 222",
       "subtitle": "",
-      "size": "large",
+      "size": "medium",
       "date": "2025-05",
       "images": [
         {

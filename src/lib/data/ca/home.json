@@ -13,7 +13,7 @@
           "src": "/media/casa-mosaic_page-0001.jpg"
         }
       ],
-      "row": 4,
+      "row": 3,
       "column": 1,
       "size": "medium",
       "title": "Casa Mosaic",
@@ -52,7 +52,7 @@
           "src": "/media/mosca_page-0001.jpg"
         }
       ],
-      "column": 5,
+      "column": 3,
       "row": 7,
       "size": "large",
       "title": "Teatre Charlot",
@@ -60,7 +60,7 @@
       "subtitle": ""
     },
     {
-      "size": "small",
+      "size": "medium",
       "date": "2025-05",
       "title": "Habitar la mort",
       "images": [
@@ -80,8 +80,8 @@
           "src": "/media/img_2013.jpg"
         }
       ],
-      "row": 12,
-      "column": 6,
+      "row": 14,
+      "column": 2,
       "title": "Neuma",
       "subtitle": ""
     },
@@ -109,7 +109,7 @@
       "subtitle": "",
       "date": "2025-05",
       "column": 2,
-      "row": 6
+      "row": 8
     },
     {
       "date": "2025-05",

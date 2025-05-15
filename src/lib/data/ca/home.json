@@ -73,14 +73,14 @@
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
       "images": [
         {
           "src": "/media/img_2013.jpg"
         }
       ],
-      "row": 14,
+      "row": 12,
       "column": 2,
       "title": "Neuma",
       "subtitle": ""

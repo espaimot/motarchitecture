@@ -15,7 +15,7 @@
       ],
       "row": 4,
       "column": 1,
-      "size": "small",
+      "size": "large",
       "title": "Casa Mosaic",
       "date": "2025-05",
       "subtitle": ""
@@ -28,14 +28,14 @@
       ],
       "row": 9,
       "column": 1,
-      "size": "small",
+      "size": "large",
       "title": "Biombo Casa Orlandai",
       "date": "2025-05",
       "subtitle": ""
     },
     {
       "title": "The everyday performance",
-      "size": "medium",
+      "size": "large",
       "row": 2,
       "column": 5,
       "images": [
@@ -54,13 +54,13 @@
       ],
       "column": 5,
       "row": 7,
-      "size": "small",
+      "size": "large",
       "title": "Teatre Charlot",
       "date": "2025-05",
       "subtitle": ""
     },
     {
-      "size": "small",
+      "size": "large",
       "date": "2025-05",
       "title": "Habitar la mort",
       "images": [
@@ -73,7 +73,7 @@
       "subtitle": ""
     },
     {
-      "size": "small",
+      "size": "large",
       "date": "2025-05",
       "images": [
         {
@@ -86,7 +86,7 @@
       "subtitle": ""
     },
     {
-      "size": "small",
+      "size": "large",
       "date": "2025-05",
       "images": [
         {
@@ -104,7 +104,7 @@
           "src": "/media/img_20241106_134622.jpg"
         }
       ],
-      "size": "small",
+      "size": "large",
       "title": "Sant Francesc 1",
       "subtitle": "",
       "date": "2025-05",
@@ -118,7 +118,7 @@
           "src": "/media/1741719822141.jpg"
         }
       ],
-      "size": "small",
+      "size": "large",
       "row": 8,
       "column": 6,
       "title": "Nàpols 255",
@@ -126,7 +126,7 @@
     },
     {
       "date": "2025-05",
-      "size": "small",
+      "size": "large",
       "title": "Sant Isidre 18",
       "subtitle": "",
       "images": [
@@ -140,7 +140,7 @@
     {
       "title": "Sant Antoni 222",
       "subtitle": "",
-      "size": "small",
+      "size": "large",
       "date": "2025-05",
       "images": [
         {

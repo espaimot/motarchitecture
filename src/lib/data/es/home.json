@@ -1,14 +1,161 @@
 {
-  "title": "Inicio",
-  "metadescription": "Test ES",
-  "projects": [],
+  "title": "Home",
+  "metadescription": "Test CA",
+  "projects": [
+    {
+      "images": [
+        {
+          "src": "/media/casa-mosaic_page-0001.jpg"
+        }
+      ],
+      "row": 3,
+      "column": 1,
+      "size": "medium",
+      "title": "Casa Mosaic",
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "images": [
+        {
+          "src": "/media/vistes-biombo-ombres_page-0001-1-.jpg"
+        }
+      ],
+      "row": 9,
+      "column": 1,
+      "size": "medium",
+      "title": "Biombo Casa Orlandai",
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "title": "The everyday performance",
+      "size": "large",
+      "row": 2,
+      "column": 5,
+      "images": [
+        {
+          "src": "/media/esquema-andami_page-0001.jpg"
+        }
+      ],
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "images": [
+        {
+          "src": "/media/mosca_page-0001.jpg"
+        }
+      ],
+      "column": 6,
+      "row": 5,
+      "size": "large",
+      "title": "Teatre Charlot",
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "size": "medium",
+      "date": "2025-05",
+      "title": "Habitar la mort",
+      "images": [
+        {
+          "src": "/media/1_colita-cementiri-de-poblenou.jpg"
+        }
+      ],
+      "row": 11,
+      "column": 3,
+      "subtitle": ""
+    },
+    {
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/img_2013.jpg"
+        }
+      ],
+      "row": 12,
+      "column": 2,
+      "title": "Neuma",
+      "subtitle": ""
+    },
+    {
+      "size": "small",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/pxl_20250121_091323355-1.jpg"
+        }
+      ],
+      "column": 4,
+      "row": 5,
+      "title": "Santa Maria 15861",
+      "subtitle": ""
+    },
+    {
+      "images": [
+        {
+          "src": "/media/img_20241106_134622.jpg"
+        }
+      ],
+      "size": "small",
+      "title": "Sant Francesc 1",
+      "subtitle": "",
+      "date": "2025-05",
+      "column": 2,
+      "row": 8
+    },
+    {
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/1741719822141.jpg"
+        }
+      ],
+      "size": "medium",
+      "row": 8,
+      "column": 6,
+      "title": "Nàpols 255",
+      "subtitle": ""
+    },
+    {
+      "date": "2025-05",
+      "size": "small",
+      "title": "Sant Isidre 18",
+      "subtitle": "",
+      "images": [
+        {
+          "src": "/media/pxl_20250408_123631010.jpg"
+        }
+      ],
+      "row": 10,
+      "column": 5
+    },
+    {
+      "title": "Sant Antoni 222",
+      "subtitle": "",
+      "size": "medium",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/pxl_20250409_142644670.jpg"
+        }
+      ],
+      "row": 1,
+      "column": 2
+    }
+  ],
   "background": {
     "src": "/media/background.png",
     "alt": "MOT architecture logo",
-    "isP5enabled": true
+    "isP5enabled": false
   },
   "contact": {
-    "image": "",
-    "text": ""
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "text": "[](https://www.instagram.com/mot.arq/)"
   }
 }

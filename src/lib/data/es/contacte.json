@@ -1,29 +1,7 @@
 {
-  "title": "Contacto",
-  "metadescription": "Test ES",
-  "contactInfo": {
-    "image": {
-      "src": "https://via.placeholder.com/150",
-      "alt": "Contact image"
-    },
-    "text": "Contact text",
-    "email": "unemail@unemail.com",
-    "phone": "123456789",
-    "instagram": "https//www.instagram.com"
-  },
-  "background": {
-    "isP5enabled": false
-  },
+  "title": "Contacte",
+  "metadescription": "Test CA",
   "contact": {
-    "src": "/media/background.jpg",
-    "alt": "TEST",
-    "text": "Bernat Renau Oliveras, Victor Rufart Gimeno y Gemma Vives Soler\n\n\n\n\nCalle Jaen, 6, 08012, Barcelona[](<>)",
-    "image": {
-      "src": "/media/general-img-square.png",
-      "alt": "PRUEBAALT"
-    },
-    "email": "epai.mot@gmail.com",
-    "phone": "",
-    "instagram": "mot.arq"
+    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n\n[Carrer Jaén 6, 08012, Barcelona](<>)[](<>)\n\n[@mot.arq](<>)"
   }
 }

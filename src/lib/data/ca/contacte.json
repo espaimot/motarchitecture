@@ -2,9 +2,9 @@
   "metadescription": "Test CA",
   "title": "Contacte",
   "contact": {
-    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler\n\n[Carrer Jaén 6, 08012, Barcelona](<>)[](<>)\n\n[@mot.arq](<>)",
+    "text": "Bernat Renau Oliveras, Víctor Rufart Gimeno i Gemma Vives Soler[](<>)\n\n[Carrer Jaén 6, 08012, Barcelona](<>)[](<>)\n\n[@mot.arq](<>)",
     "image": {
-      "src": "/media/untitled-2.jpg"
+      "src": ""
     }
   }
 }

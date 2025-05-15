@@ -15,7 +15,7 @@
       ],
       "row": 4,
       "column": 1,
-      "size": "large",
+      "size": "medium",
       "title": "Casa Mosaic",
       "date": "2025-05",
       "subtitle": ""
@@ -60,7 +60,7 @@
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
       "title": "Habitar la mort",
       "images": [
@@ -86,7 +86,7 @@
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
       "images": [
         {
@@ -104,7 +104,7 @@
           "src": "/media/img_20241106_134622.jpg"
         }
       ],
-      "size": "medium",
+      "size": "small",
       "title": "Sant Francesc 1",
       "subtitle": "",
       "date": "2025-05",

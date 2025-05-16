@@ -11,7 +11,7 @@
       "row": 3,
       "column": 1,
       "size": "medium",
-      "title": "Casa Mosaic",
+      "title": "032504",
       "date": "2025-05",
       "subtitle": ""
     },
@@ -24,12 +24,12 @@
       "row": 9,
       "column": 1,
       "size": "medium",
-      "title": "Biombo Casa Orlandai",
+      "title": "042407",
       "date": "2025-05",
       "subtitle": ""
     },
     {
-      "title": "The everyday performance",
+      "title": "032406",
       "size": "large",
       "row": 2,
       "column": 5,
@@ -50,14 +50,14 @@
       "column": 6,
       "row": 5,
       "size": "large",
-      "title": "Teatre Charlot",
+      "title": "032406",
       "date": "2025-05",
       "subtitle": ""
     },
     {
-      "size": "medium",
+      "size": "small",
       "date": "2025-05",
-      "title": "Habitar la mort",
+      "title": "142501",
       "images": [
         {
           "src": "/media/1_colita-cementiri-de-poblenou.jpg"
@@ -77,7 +77,7 @@
       ],
       "row": 11,
       "column": 2,
-      "title": "Neuma",
+      "title": "072409",
       "subtitle": ""
     },
     {
@@ -90,7 +90,7 @@
       ],
       "column": 4,
       "row": 5,
-      "title": "Santa Maria 15861",
+      "title": "062407",
       "subtitle": ""
     },
     {
@@ -100,7 +100,7 @@
         }
       ],
       "size": "small",
-      "title": "Sant Francesc 1",
+      "title": "112410",
       "subtitle": "",
       "date": "2025-05",
       "column": 2,
@@ -110,19 +110,19 @@
       "date": "2025-05",
       "images": [
         {
-          "src": "/media/1741719822141.jpg"
+          "src": "/media/whatsapp-image-2025-05-16-at-09.21.18.jpeg"
         }
       ],
       "size": "medium",
       "row": 8,
       "column": 6,
-      "title": "Nàpols 255",
+      "title": "062407",
       "subtitle": ""
     },
     {
       "date": "2025-05",
       "size": "small",
-      "title": "Sant Isidre 18",
+      "title": "202503",
       "subtitle": "",
       "images": [
         {
@@ -133,7 +133,7 @@
       "column": 5
     },
     {
-      "title": "Sant Antoni 222",
+      "title": "182502",
       "subtitle": "",
       "size": "medium",
       "date": "2025-05",
@@ -144,6 +144,18 @@
       ],
       "row": 1,
       "column": 2
+    },
+    {
+      "title": "062407",
+      "size": "small",
+      "images": [
+        {
+          "src": "/media/whatsapp-image-2025-05-16-at-09.21.19.jpeg"
+        }
+      ],
+      "date": "2025-05",
+      "row": 1,
+      "column": 6
     }
   ],
   "background": {

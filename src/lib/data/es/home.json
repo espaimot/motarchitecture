@@ -131,30 +131,6 @@
       ],
       "row": 1,
       "column": 2
-    },
-    {
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/img-20250516-wa0002.jpg"
-        }
-      ],
-      "title": "0624072",
-      "row": 1,
-      "column": 5
-    },
-    {
-      "title": "0624073",
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/img-20250516-wa0003.jpg"
-        }
-      ],
-      "row": 7,
-      "column": 5
     }
   ],
   "background": {

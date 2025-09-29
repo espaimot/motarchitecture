@@ -2,8 +2,8 @@
   "title": "Home",
   "metadescription": "Test CA",
   "background": {
-    "src": "/media/background.png",
-    "alt": "MOT architecture logo",
+    "src": "",
+    "alt": "",
     "isP5enabled": false
   },
   "projects": [

@@ -1,6 +1,6 @@
 {
   "title": "Home",
-  "metadescription": "Test CA",
+  "metadescription": "Test EN",
   "projects": [
     {
       "images": [
@@ -135,7 +135,7 @@
   ],
   "background": {
     "src": "/media/background.png",
-    "alt": "MOT architecture logo",
+    "alt": "",
     "isP5enabled": false
   },
   "contact": {

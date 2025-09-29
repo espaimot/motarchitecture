@@ -37,8 +37,8 @@
           "src": "/media/habitar-la-mort_2025.gif"
         }
       ],
-      "row": 8,
-      "column": 2,
+      "row": 2,
+      "column": 8,
       "subtitle": ""
     },
     {
@@ -51,7 +51,7 @@
           "src": "/media/pxl_20250409_142644670.jpg"
         }
       ],
-      "row": 5,
+      "row": 6,
       "column": 12
     },
     {
@@ -64,7 +64,7 @@
         }
       ],
       "row": 3,
-      "column": 15
+      "column": 18
     }
   ],
   "background": {

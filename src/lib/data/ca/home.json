@@ -47,59 +47,7 @@
       "subtitle": ""
     },
     {
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/img_2013.jpg"
-        }
-      ],
-      "row": 12,
-      "column": 2,
-      "title": "072409",
-      "subtitle": ""
-    },
-    {
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/pxl_20250121_091323355-1.jpg"
-        }
-      ],
-      "column": 4,
-      "row": 5,
-      "title": "0624071",
-      "subtitle": "asdsdasadas\n\nssdasad\n\nas\n\nas\n\nsaasdas"
-    },
-    {
-      "images": [
-        {
-          "src": "/media/img_20241106_134622.jpg"
-        }
-      ],
-      "size": "small",
-      "title": "112410",
-      "subtitle": "",
-      "date": "2025-05",
-      "column": 2,
-      "row": 8
-    },
-    {
-      "date": "2025-05",
-      "size": "small",
-      "title": "202503",
-      "subtitle": "",
-      "images": [
-        {
-          "src": "/media/pxl_20250408_123631010.jpg"
-        }
-      ],
-      "row": 10,
-      "column": 5
-    },
-    {
-      "title": "182502",
+      "title": "Trav. Sant Antoni",
       "subtitle": "",
       "size": "medium",
       "date": "2025-05",
@@ -108,8 +56,8 @@
           "src": "/media/pxl_20250409_142644670.jpg"
         }
       ],
-      "row": 1,
-      "column": 2
+      "row": 5,
+      "column": 12
     }
   ],
   "contact": {

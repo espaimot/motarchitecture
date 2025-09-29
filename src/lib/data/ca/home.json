@@ -2,8 +2,8 @@
   "title": "Home",
   "metadescription": "Test CA",
   "background": {
-    "src": "/media/background.png",
-    "alt": "LOGO",
+    "src": "",
+    "alt": "",
     "isP5enabled": false
   },
   "projects": [
@@ -39,7 +39,7 @@
       "title": "Habitar la mort",
       "images": [
         {
-          "src": "/media/habitar-la-mort_2025.gif"
+          "src": "/media/1_colita-cementiri-de-poblenou.jpg"
         }
       ],
       "row": 8,

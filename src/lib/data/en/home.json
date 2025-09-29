@@ -1,6 +1,6 @@
 {
   "title": "Home",
-  "metadescription": "Test CA",
+  "metadescription": "Test EN",
   "projects": [
     {
       "images": [
@@ -8,10 +8,10 @@
           "src": "/media/casa-mosaic_page-0001.jpg"
         }
       ],
-      "row": 3,
+      "row": 1,
       "column": 1,
       "size": "medium",
-      "title": "032504",
+      "title": "Casa Mosaic",
       "date": "2025-05",
       "subtitle": ""
     },
@@ -21,106 +21,28 @@
           "src": "/media/vistes-biombo-ombres_page-0001-1-.jpg"
         }
       ],
-      "row": 9,
-      "column": 1,
-      "size": "medium",
-      "title": "042407",
-      "date": "2025-05",
-      "subtitle": ""
-    },
-    {
-      "title": "0324061",
-      "size": "large",
-      "row": 2,
-      "column": 5,
-      "images": [
-        {
-          "src": "/media/esquema-andami_page-0001.jpg"
-        }
-      ],
-      "date": "2025-05",
-      "subtitle": ""
-    },
-    {
-      "images": [
-        {
-          "src": "/media/mosca_page-0001.jpg"
-        }
-      ],
+      "row": 3,
       "column": 6,
-      "row": 5,
       "size": "medium",
-      "title": "0324062",
+      "title": "Retaule Frontissa",
       "date": "2025-05",
       "subtitle": ""
     },
     {
-      "size": "small",
+      "size": "medium",
       "date": "2025-05",
-      "title": "142501",
+      "title": "Habitar la mort",
       "images": [
         {
-          "src": "/media/1_colita-cementiri-de-poblenou.jpg"
+          "src": "/media/habitar-la-mort_2025.gif"
         }
       ],
-      "row": 12,
-      "column": 6,
-      "subtitle": ""
-    },
-    {
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/img_2013.jpg"
-        }
-      ],
-      "row": 12,
+      "row": 8,
       "column": 2,
-      "title": "072409",
       "subtitle": ""
     },
     {
-      "size": "small",
-      "date": "2025-05",
-      "images": [
-        {
-          "src": "/media/pxl_20250121_091323355-1.jpg"
-        }
-      ],
-      "column": 4,
-      "row": 5,
-      "title": "0624071",
-      "subtitle": ""
-    },
-    {
-      "images": [
-        {
-          "src": "/media/img_20241106_134622.jpg"
-        }
-      ],
-      "size": "small",
-      "title": "112410",
-      "subtitle": "",
-      "date": "2025-05",
-      "column": 2,
-      "row": 8
-    },
-    {
-      "date": "2025-05",
-      "size": "small",
-      "title": "202503",
-      "subtitle": "",
-      "images": [
-        {
-          "src": "/media/pxl_20250408_123631010.jpg"
-        }
-      ],
-      "row": 10,
-      "column": 5
-    },
-    {
-      "title": "182502",
+      "title": "Trav. Sant Antoni",
       "subtitle": "",
       "size": "medium",
       "date": "2025-05",
@@ -129,13 +51,25 @@
           "src": "/media/pxl_20250409_142644670.jpg"
         }
       ],
-      "row": 1,
-      "column": 2
+      "row": 5,
+      "column": 12
+    },
+    {
+      "title": "Manuel de Falla",
+      "size": "medium",
+      "date": "2025-09",
+      "images": [
+        {
+          "src": "/media/esq-2_page-0001.jpg"
+        }
+      ],
+      "row": 3,
+      "column": 15
     }
   ],
   "background": {
     "src": "/media/background.png",
-    "alt": "MOT architecture logo",
+    "alt": "",
     "isP5enabled": false
   },
   "contact": {
@@ -144,5 +78,6 @@
       "alt": ""
     },
     "text": "[](https://www.instagram.com/mot.arq/)"
-  }
+  },
+  "timelineProjects": []
 }

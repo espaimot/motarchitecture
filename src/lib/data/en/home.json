@@ -53,6 +53,18 @@
       ],
       "row": 5,
       "column": 12
+    },
+    {
+      "title": "Manuel de Falla",
+      "size": "medium",
+      "date": "2025-09",
+      "images": [
+        {
+          "src": "/media/esq-2_page-0001.jpg"
+        }
+      ],
+      "row": 3,
+      "column": 15
     }
   ],
   "background": {
@@ -66,5 +78,6 @@
       "alt": ""
     },
     "text": "[](https://www.instagram.com/mot.arq/)"
-  }
+  },
+  "timelineProjects": []
 }

@@ -2,8 +2,8 @@
   "title": "Home",
   "metadescription": "Test CA",
   "background": {
-    "src": "",
-    "alt": "",
+    "src": "/media/background.png",
+    "alt": "LOGO",
     "isP5enabled": false
   },
   "projects": [

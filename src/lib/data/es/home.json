@@ -1,9 +1,74 @@
 {
   "title": "Home",
-  "metadescription": "Test ES",
-  "projects": [],
+  "metadescription": "Test CA",
+  "projects": [
+    {
+      "images": [
+        {
+          "src": "/media/casa-mosaic_page-0001.jpg"
+        }
+      ],
+      "row": 1,
+      "column": 2,
+      "size": "medium",
+      "title": "Casa Mosaic",
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "images": [
+        {
+          "src": "/media/vistes-biombo-ombres_page-0001-1-.jpg"
+        }
+      ],
+      "row": 3,
+      "column": 5,
+      "size": "medium",
+      "title": "Retaule Frontissa",
+      "date": "2025-05",
+      "subtitle": ""
+    },
+    {
+      "size": "medium",
+      "date": "2025-05",
+      "title": "Habitar la mort",
+      "images": [
+        {
+          "src": "/media/1_colita-cementiri-de-poblenou.jpg"
+        }
+      ],
+      "row": 8,
+      "column": 2,
+      "subtitle": ""
+    },
+    {
+      "title": "Trav. Sant Antoni",
+      "subtitle": "",
+      "size": "medium",
+      "date": "2025-05",
+      "images": [
+        {
+          "src": "/media/pxl_20250409_142644670.jpg"
+        }
+      ],
+      "row": 12,
+      "column": 5
+    },
+    {
+      "title": "Manuel de Falla",
+      "size": "medium",
+      "date": "2025-09",
+      "images": [
+        {
+          "src": "/media/esq-2_page-0001.jpg"
+        }
+      ],
+      "row": 18,
+      "column": 3
+    }
+  ],
   "background": {
-    "src": "/media/background.png",
+    "src": "",
     "alt": "",
     "isP5enabled": false
   },
@@ -13,5 +78,6 @@
       "alt": ""
     },
     "text": "[](https://www.instagram.com/mot.arq/)"
-  }
+  },
+  "timelineProjects": []
 }
